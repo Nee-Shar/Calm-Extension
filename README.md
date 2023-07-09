@@ -15,6 +15,9 @@ The Calm Mind Extension is a browser extension designed to provide moments of re
 
 ## Screenshots
 ![Screenshot (207)](https://github.com/Nee-Shar/Calm-Extension/assets/99169026/587b0fba-1d66-481a-894e-a9ba3cda0888)
+
+
+
 ![Screenshot (208)](https://github.com/Nee-Shar/Calm-Extension/assets/99169026/c99875fc-e501-4925-83dd-1488a37c1fdc)
 
 
