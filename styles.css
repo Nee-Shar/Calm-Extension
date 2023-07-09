@@ -1,0 +1,103 @@
+/* body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-top: 2%;
+  background-color: #cceebc;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+  background-color: #faf0d7;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#music {
+  background-image: url("https://images.pexels.com/photos/3693108/pexels-photo-3693108.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+  color: rgb(247, 235, 235);
+}
+#joke {
+  background-image: url("https://images.pexels.com/photos/3905773/pexels-photo-3905773.jpeg?cs=srgb&dl=pexels-polina-tankilevitch-3905773.jpg&fm=jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 1;
+}
+#qoute {
+  background-image: url("https://cutewallpaper.org/28/dark-black-background-wallpaper-with-a-light-bulb/2000-best-bulb-photos-%C2%B7-100-free-download-%C2%B7-pexels-stock-photos.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+
+  color: rgb(247, 235, 235);
+} */
+body {
+  width: 600px;
+  height: 400px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+
+  margin-top: 2%;
+  background-color: #cceebc;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: #faf0d7;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+  font-size: 16px;
+}
+
+#music {
+  background-image: url("https://images.pexels.com/photos/3693108/pexels-photo-3693108.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+  color: #fff;
+}
+
+#joke {
+  background-image: url("https://images.pexels.com/photos/3905773/pexels-photo-3905773.jpeg?cs=srgb&dl=pexels-polina-tankilevitch-3905773.jpg&fm=jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 1;
+}
+
+#qoute {
+  background-image: url("https://images.pexels.com/photos/5981927/pexels-photo-5981927.jpeg?cs=srgb&dl=pexels-thirdman-5981927.jpg&fm=jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+  color: white;
+}
