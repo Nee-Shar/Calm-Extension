@@ -56,6 +56,12 @@ body {
 
   margin-top: 2%;
   background-color: #cceebc;
+  background: linear-gradient(0deg, #d56cea 0%, #81f4d3 100%);
+}
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .container {
   display: flex;
@@ -74,8 +80,15 @@ body {
   justify-content: center;
   color: #333;
   font-size: 16px;
+  -webkit-box-shadow: 9px 12px 5px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 9px 12px 5px 0px rgba(0, 0, 0, 1);
+  box-shadow: 9px 12px 5px 0px rgba(0, 0, 0, 1);
 }
-
+.box:hover {
+  transform: scale(
+    1.1
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
 #music {
   background-image: url("https://images.pexels.com/photos/3693108/pexels-photo-3693108.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   background-size: cover;

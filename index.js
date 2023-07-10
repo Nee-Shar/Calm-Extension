@@ -1,12 +1,15 @@
 document.getElementById("joke").addEventListener("click", () => {
-  fetch(
-    "https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,religious,political,racist,sexist,explicit&type=single"
-  )
+  fetch("https://backend-omega-seven.vercel.app/api/getjoke")
     .then((response) => response.json())
     .then((data) => {
-      const jokeText = data.joke;
+      const joke = data[0];
+      const question = joke.question;
+      const answer = joke.punchline;
+
+      const jokeText = `Q: ${question}\nA: ${answer}`; // Format question and answer
+
       console.log(jokeText);
-      document.getElementById("joke").innerText = `${jokeText}`;
+      document.getElementById("joke").innerText = jokeText;
     })
     .catch((error) => {
       console.log("An error occurred:", error);
